@@ -12,11 +12,3 @@ app.get('/', function (req: Request, res: Response) {
 app.listen(PORT, HOST, () => {
   console.log('hello 2')
 })
-
-// console.log("test ");
-
-function test(): void {
-  console.log(process.env.TEST_VALUE)
-}
-
-test()
